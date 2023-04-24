@@ -1,0 +1,18 @@
+<web-app>
+  <servlet>
+    <servlet-name>IncludeServlet</servlet-name>
+    <servlet-class>IncludeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IncludeServlet</servlet-name>
+    <url-pattern>/is</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ForwardServlet</servlet-name>
+    <servlet-class>ForwardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ForwardServlet</servlet-name>
+    <url-pattern>/fs</url-pattern>
+  </servlet-mapping>
+</web-app>  

@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name> Prac3 </servlet-name>
+    <servlet-class>Prac3</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name> Prac3 </servlet-name>
+    <url-pattern>/prac3</url-pattern>
+  </servlet-mapping>
+</web-app>

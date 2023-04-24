@@ -1,0 +1,15 @@
+<web-app>
+  <servlet>
+    <servlet-name>Serv</servlet-name>
+    <servlet-class>Serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv</servlet-name>
+    <url-pattern>/serv</url-pattern>
+  </servlet-mapping>
+
+  <error-page>
+    <exception-type>javax.servlet.ServletException</exception-type>
+    <location>/error.html</location>
+  </error-page>
+</web-app>  

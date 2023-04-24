@@ -1,0 +1,26 @@
+<web-app>
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>Test</servlet-class>
+    <init-param>
+      <param-name>cfgp1</param-name>
+      <param-value>Value of cfgp1</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cfgp2</param-name>
+      <param-value>Value of cfgp2</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>ctxp1</param-name>
+    <param-value>Value of ctxp1</param-value>
+  </context-param>
+  <context-param>
+    <param-name>ctxp2</param-name>
+    <param-value>Value of ctxp2</param-value>
+  </context-param>
+</web-app>
