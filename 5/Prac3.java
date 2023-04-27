@@ -7,6 +7,7 @@ public class Prac3 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res)
             throws ServletException, IOException {
         res.setContentType("text/html");
+        PrintWriter out = res.getWriter();
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
@@ -36,6 +37,8 @@ public class Prac3 extends HttpServlet {
             // Delete database
             s.executeUpdate("DROP DATABASE IF EXISTS mydb");
 
+            out.print("<h1>Statements executed successfully!</h1>");
+            
             s.close();
             c.close();
         } catch (Exception e) {
